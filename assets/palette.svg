@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 260" fill="none">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="1.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="720" height="260" fill="#0a0a0a" rx="10"/>
+  <rect x="0.5" y="0.5" width="719" height="259" rx="9.5" stroke="#222222" stroke-width="1" fill="none"/>
+
+  <!-- Title -->
+  <text x="360" y="32" text-anchor="middle" font-family="Monaco, 'Courier New', monospace" font-size="13" fill="#555555">ANSI Color Palette</text>
+
+  <!-- Normal Colors Header -->
+  <text x="20" y="65" font-family="Monaco, 'Courier New', monospace" font-size="11" fill="#444444">Normal</text>
+
+  <!-- Normal color blocks -->
+  <rect x="20"  y="75" width="78" height="52" rx="4" fill="#000000" stroke="#333333" stroke-width="0.5"/>
+  <rect x="106" y="75" width="78" height="52" rx="4" fill="#bb0000"/>
+  <rect x="192" y="75" width="78" height="52" rx="4" fill="#00bb00"/>
+  <rect x="278" y="75" width="78" height="52" rx="4" fill="#bbbb00"/>
+  <rect x="364" y="75" width="78" height="52" rx="4" fill="#0000bb"/>
+  <rect x="450" y="75" width="78" height="52" rx="4" fill="#bb00bb"/>
+  <rect x="536" y="75" width="78" height="52" rx="4" fill="#00bbbb"/>
+  <rect x="622" y="75" width="78" height="52" rx="4" fill="#bbbbbb"/>
+
+  <!-- Normal color labels -->
+  <text x="59"  y="104" text-anchor="middle" font-family="Monaco, 'Courier New', monospace" font-size="9" fill="#555555">Black</text>
+  <text x="145" y="104" text-anchor="middle" font-family="Monaco, 'Courier New', monospace" font-size="9" fill="#ffffff">Red</text>
+  <text x="231" y="104" text-anchor="middle" font-family="Monaco, 'Courier New', monospace" font-size="9" fill="#000000">Green</text>
+  <text x="317" y="104" text-anchor="middle" font-family="Monaco, 'Courier New', monospace" font-size="9" fill="#000000">Yellow</text>
+  <text x="403" y="104" text-anchor="middle" font-family="Monaco, 'Courier New', monospace" font-size="9" fill="#bbbbbb">Blue</text>
+  <text x="489" y="104" text-anchor="middle" font-family="Monaco, 'Courier New', monospace" font-size="9" fill="#ffffff">Magenta</text>
+  <text x="575" y="104" text-anchor="middle" font-family="Monaco, 'Courier New', monospace" font-size="9" fill="#000000">Cyan</text>
+  <text x="661" y="104" text-anchor="middle" font-family="Monaco, 'Courier New', monospace" font-size="9" fill="#000000">White</text>
+
+  <!-- Normal hex values -->
+  <text x="59"  y="118" text-anchor="middle" font-family="Monaco, 'Courier New', monospace" font-size="8" fill="#333333">#000000</text>
+  <text x="145" y="118" text-anchor="middle" font-family="Monaco, 'Courier New', monospace" font-size="8" fill="#ff9999">#BB0000</text>
+  <text x="231" y="118" text-anchor="middle" font-family="Monaco, 'Courier New', monospace" font-size="8" fill="#003300">#00BB00</text>
+  <text x="317" y="118" text-anchor="middle" font-family="Monaco, 'Courier New', monospace" font-size="8" fill="#333300">#BBBB00</text>
+  <text x="403" y="118" text-anchor="middle" font-family="Monaco, 'Courier New', monospace" font-size="8" fill="#9999ff">#0000BB</text>
+  <text x="489" y="118" text-anchor="middle" font-family="Monaco, 'Courier New', monospace" font-size="8" fill="#ffccff">#BB00BB</text>
+  <text x="575" y="118" text-anchor="middle" font-family="Monaco, 'Courier New', monospace" font-size="8" fill="#003333">#00BBBB</text>
+  <text x="661" y="118" text-anchor="middle" font-family="Monaco, 'Courier New', monospace" font-size="8" fill="#333333">#BBBBBB</text>
+
+  <!-- Bright Colors Header -->
+  <text x="20" y="155" font-family="Monaco, 'Courier New', monospace" font-size="11" fill="#444444">Bright</text>
+
+  <!-- Bright color blocks -->
+  <rect x="20"  y="165" width="78" height="52" rx="4" fill="#555555"/>
+  <rect x="106" y="165" width="78" height="52" rx="4" fill="#ff5555"/>
+  <rect x="192" y="165" width="78" height="52" rx="4" fill="#55ff55"/>
+  <rect x="278" y="165" width="78" height="52" rx="4" fill="#ffff55"/>
+  <rect x="364" y="165" width="78" height="52" rx="4" fill="#5555ff"/>
+  <rect x="450" y="165" width="78" height="52" rx="4" fill="#ff55ff"/>
+  <rect x="536" y="165" width="78" height="52" rx="4" fill="#55ffff"/>
+  <rect x="622" y="165" width="78" height="52" rx="4" fill="#ffffff"/>
+
+  <!-- Bright color labels -->
+  <text x="59"  y="194" text-anchor="middle" font-family="Monaco, 'Courier New', monospace" font-size="9" fill="#bbbbbb">Br Black</text>
+  <text x="145" y="194" text-anchor="middle" font-family="Monaco, 'Courier New', monospace" font-size="9" fill="#000000">Br Red</text>
+  <text x="231" y="194" text-anchor="middle" font-family="Monaco, 'Courier New', monospace" font-size="9" fill="#000000">Br Green</text>
+  <text x="317" y="194" text-anchor="middle" font-family="Monaco, 'Courier New', monospace" font-size="9" fill="#000000">Br Yellow</text>
+  <text x="403" y="194" text-anchor="middle" font-family="Monaco, 'Courier New', monospace" font-size="9" fill="#ffffff">Br Blue</text>
+  <text x="489" y="194" text-anchor="middle" font-family="Monaco, 'Courier New', monospace" font-size="9" fill="#000000">Br Magenta</text>
+  <text x="575" y="194" text-anchor="middle" font-family="Monaco, 'Courier New', monospace" font-size="9" fill="#000000">Br Cyan</text>
+  <text x="661" y="194" text-anchor="middle" font-family="Monaco, 'Courier New', monospace" font-size="9" fill="#000000">Br White</text>
+
+  <!-- Bright hex values -->
+  <text x="59"  y="208" text-anchor="middle" font-family="Monaco, 'Courier New', monospace" font-size="8" fill="#888888">#555555</text>
+  <text x="145" y="208" text-anchor="middle" font-family="Monaco, 'Courier New', monospace" font-size="8" fill="#330000">#FF5555</text>
+  <text x="231" y="208" text-anchor="middle" font-family="Monaco, 'Courier New', monospace" font-size="8" fill="#003300">#55FF55</text>
+  <text x="317" y="208" text-anchor="middle" font-family="Monaco, 'Courier New', monospace" font-size="8" fill="#333300">#FFFF55</text>
+  <text x="403" y="208" text-anchor="middle" font-family="Monaco, 'Courier New', monospace" font-size="8" fill="#ccccff">#5555FF</text>
+  <text x="489" y="208" text-anchor="middle" font-family="Monaco, 'Courier New', monospace" font-size="8" fill="#330033">#FF55FF</text>
+  <text x="575" y="208" text-anchor="middle" font-family="Monaco, 'Courier New', monospace" font-size="8" fill="#003333">#55FFFF</text>
+  <text x="661" y="208" text-anchor="middle" font-family="Monaco, 'Courier New', monospace" font-size="8" fill="#333333">#FFFFFF</text>
+
+  <!-- Footer -->
+  <text x="360" y="245" text-anchor="middle" font-family="Monaco, 'Courier New', monospace" font-size="10" fill="#333333">Classic CGA palette — the one you've been staring at for years</text>
+</svg>

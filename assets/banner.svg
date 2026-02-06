@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" fill="none">
+  <defs>
+    <linearGradient id="termGlow" x1="0" y1="0" x2="900" y2="280">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="50%" stop-color="#111111"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="280" fill="url(#termGlow)" rx="12"/>
+  <rect x="1" y="1" width="898" height="278" rx="11" stroke="#333333" stroke-width="1" fill="none"/>
+
+  <!-- Terminal window chrome -->
+  <rect x="40" y="30" width="820" height="220" rx="8" fill="#000000" stroke="#444444" stroke-width="1"/>
+
+  <!-- Title bar -->
+  <rect x="40" y="30" width="820" height="32" rx="8" fill="#1a1a1a"/>
+  <rect x="40" y="50" width="820" height="12" fill="#1a1a1a"/>
+
+  <!-- Traffic lights -->
+  <circle cx="64" cy="46" r="6" fill="#ff5555" opacity="0.9"/>
+  <circle cx="84" cy="46" r="6" fill="#bbbb00" opacity="0.9"/>
+  <circle cx="104" cy="46" r="6" fill="#00bb00" opacity="0.9"/>
+
+  <!-- Title text -->
+  <text x="450" y="50" text-anchor="middle" font-family="Monaco, 'Courier New', monospace" font-size="13" fill="#888888">iTerm2 Default — zed</text>
+
+  <!-- Terminal prompt line 1 -->
+  <text x="60" y="90" font-family="Monaco, 'Courier New', monospace" font-size="14" fill="#00bb00" filter="url(#glow)">~</text>
+  <text x="75" y="90" font-family="Monaco, 'Courier New', monospace" font-size="14" fill="#bbbbbb">$</text>
+  <text x="95" y="90" font-family="Monaco, 'Courier New', monospace" font-size="14" fill="#bbbbbb">echo</text>
+  <text x="140" y="90" font-family="Monaco, 'Courier New', monospace" font-size="14" fill="#55ff55">"The terminal colors you already know and love"</text>
+
+  <!-- Terminal prompt line 2 -->
+  <text x="60" y="115" font-family="Monaco, 'Courier New', monospace" font-size="14" fill="#bbbbbb">The terminal colors you already know and love</text>
+
+  <!-- Terminal prompt line 3 -->
+  <text x="60" y="145" font-family="Monaco, 'Courier New', monospace" font-size="14" fill="#00bb00" filter="url(#glow)">~</text>
+  <text x="75" y="145" font-family="Monaco, 'Courier New', monospace" font-size="14" fill="#bbbbbb">$</text>
+  <text x="95" y="145" font-family="Monaco, 'Courier New', monospace" font-size="14" fill="#5555ff">cat</text>
+  <text x="125" y="145" font-family="Monaco, 'Courier New', monospace" font-size="14" fill="#bbbbbb">colors.ansi</text>
+
+  <!-- ANSI color blocks row -->
+  <rect x="60"  y="165" width="42" height="22" rx="2" fill="#000000" stroke="#333333" stroke-width="0.5"/>
+  <rect x="107" y="165" width="42" height="22" rx="2" fill="#bb0000"/>
+  <rect x="154" y="165" width="42" height="22" rx="2" fill="#00bb00"/>
+  <rect x="201" y="165" width="42" height="22" rx="2" fill="#bbbb00"/>
+  <rect x="248" y="165" width="42" height="22" rx="2" fill="#0000bb"/>
+  <rect x="295" y="165" width="42" height="22" rx="2" fill="#bb00bb"/>
+  <rect x="342" y="165" width="42" height="22" rx="2" fill="#00bbbb"/>
+  <rect x="389" y="165" width="42" height="22" rx="2" fill="#bbbbbb"/>
+
+  <!-- Bright ANSI color blocks row -->
+  <rect x="60"  y="192" width="42" height="22" rx="2" fill="#555555"/>
+  <rect x="107" y="192" width="42" height="22" rx="2" fill="#ff5555"/>
+  <rect x="154" y="192" width="42" height="22" rx="2" fill="#55ff55"/>
+  <rect x="201" y="192" width="42" height="22" rx="2" fill="#ffff55"/>
+  <rect x="248" y="192" width="42" height="22" rx="2" fill="#5555ff"/>
+  <rect x="295" y="192" width="42" height="22" rx="2" fill="#ff55ff"/>
+  <rect x="342" y="192" width="42" height="22" rx="2" fill="#55ffff"/>
+  <rect x="389" y="192" width="42" height="22" rx="2" fill="#ffffff"/>
+
+  <!-- Right side: Theme name -->
+  <text x="540" y="182" font-family="Monaco, 'Courier New', monospace" font-size="28" fill="#bbbbbb" font-weight="bold" filter="url(#glow)">iTerm2 Default</text>
+  <text x="540" y="206" font-family="Monaco, 'Courier New', monospace" font-size="14" fill="#555555">for Zed Editor</text>
+
+  <!-- Blinking cursor -->
+  <rect x="60" y="222" width="8" height="16" fill="#bbbbbb" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0;0.8" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+</svg>
