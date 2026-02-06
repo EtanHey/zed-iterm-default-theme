@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/etanheyman/zed-iterm-default-theme/stargazers"><img src="https://img.shields.io/github/stars/etanheyman/zed-iterm-default-theme?colorA=0a0a0a&colorB=bbbbbb&style=for-the-badge&logo=github" alt="Stars"/></a>
-  <a href="https://github.com/etanheyman/zed-iterm-default-theme/blob/main/LICENSE"><img src="https://img.shields.io/github/license/etanheyman/zed-iterm-default-theme?colorA=0a0a0a&colorB=555555&style=for-the-badge" alt="License"/></a>
+  <a href="https://github.com/EtanHey/zed-iterm-default-theme/stargazers"><img src="https://img.shields.io/github/stars/EtanHey/zed-iterm-default-theme?colorA=0a0a0a&colorB=bbbbbb&style=for-the-badge&logo=github" alt="Stars"/></a>
+  <a href="https://github.com/EtanHey/zed-iterm-default-theme/blob/main/LICENSE"><img src="https://img.shields.io/github/license/EtanHey/zed-iterm-default-theme?colorA=0a0a0a&colorB=555555&style=for-the-badge" alt="License"/></a>
 </p>
 
 <p align="center">
@@ -80,7 +80,7 @@ This theme brings that exact palette into Zed, so your terminal finally looks ri
 
 1. Clone this repo
    ```sh
-   git clone https://github.com/etanheyman/zed-iterm-default-theme.git
+   git clone https://github.com/EtanHey/zed-iterm-default-theme.git
    ```
 2. In Zed: <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> → `zed: install dev extension`
 3. Select the cloned directory
@@ -101,7 +101,7 @@ If you grew up with the default Mac terminal colors and never bothered changing 
 
 ## Contributing
 
-Found something off? [Open an issue](https://github.com/etanheyman/zed-iterm-default-theme/issues). PRs welcome.
+Found something off? [Open an issue](https://github.com/EtanHey/zed-iterm-default-theme/issues). PRs welcome.
 
 ## License
 
@@ -110,5 +110,5 @@ Found something off? [Open an issue](https://github.com/etanheyman/zed-iterm-def
 ---
 
 <p align="center">
-  <sub>Built by <a href="https://github.com/etanheyman">@etanheyman</a> because the terminal should feel like home.</sub>
+  <sub>Built by <a href="https://github.com/EtanHey">@etanheyman</a> because the terminal should feel like home.</sub>
 </p>
