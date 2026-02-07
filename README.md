@@ -110,5 +110,5 @@ Found something off? [Open an issue](https://github.com/EtanHey/zed-iterm-defaul
 ---
 
 <p align="center">
-  <sub>Built by <a href="https://github.com/EtanHey">@etanheyman</a> because the terminal should feel like home.</sub>
+  <sub>Built by <a href="https://github.com/EtanHey">@EtanHey</a> because the terminal should feel like home.</sub>
 </p>
