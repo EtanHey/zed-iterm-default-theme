@@ -85,17 +85,17 @@
         "error.background": "#ff555520",
         "error.border": "#ff555560",
 
-        "hidden": "#555555",
-        "hidden.background": "#55555520",
-        "hidden.border": "#55555560",
+        "hidden": "#777777",
+        "hidden.background": "#77777720",
+        "hidden.border": "#77777760",
 
         "hint": "#888888",
         "hint.background": "#88888820",
         "hint.border": "#88888860",
 
-        "ignored": "#444444",
-        "ignored.background": "#44444420",
-        "ignored.border": "#44444460",
+        "ignored": "#666666",
+        "ignored.background": "#66666620",
+        "ignored.border": "#66666660",
 
         "info": "#5555ff",
         "info.background": "#5555ff20",
